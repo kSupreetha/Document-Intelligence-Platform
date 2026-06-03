@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+node_modules/
+.next/
+out/
+
+# Uploads / vector DB (runtime data, not source)
+backend/uploads/
+backend/chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
